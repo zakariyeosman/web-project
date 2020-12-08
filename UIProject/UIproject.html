@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="UIproject.css">
+    <script src="https://kit.fontawesome.com/8de30d6cc2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main_card">
+        <div class="title">
+        <h1 class='title'>Weather App</h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search City" class="inputValue">
+            <input type="submit" value="Submit" class="button">
+        </div>
+        <div class="cities">
+            <ul>
+                <li class="austin">Austin</li>
+                <li class="chicago">Chicago</li>
+                <li class="newyork">New York</li>
+                <li class="orlando">Orlando</li>
+                <li class="sanfrancisco">San Francisco</li>
+                <li class="seattle">Seattle</li>
+                <li class="denver">Denver</li>
+                <li id="border-bottom" class="atlanta">Atlanta</li>
+            </ul>
+        </div>
+        <div class="weathercard">
+            <h1 class="name"></h1>
+            <img src="https://openweathermap.org/img/wn/${data.icon}@2x.png" class="icon" alt="">
+            <p class="date"></p>
+            <p class="temp"></p>
+            <p class="humidity"></p>
+            <p class="windspeed"></p>
+            <p class="uvindex"></p>
+        </div>
+    </div>
+    <script src="UIproject.js"></script>
+</body>
+</html>

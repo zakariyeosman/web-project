@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap');
+body {
+    background-color: rgb(0, 204, 255);
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.fas {
+    color: black;
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+.fas:hover:hover {
+    color: blue;
+}
+
+.cities ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+.cities ul li {
+    border: 2px solid black;
+    padding: 5px;
+    border-bottom: none;
+    text-align: center;
+    border-radius: 5%;
+}
+#border-bottom {
+    border-bottom: 2px solid black;
+}
+.title {
+    text-align: center;
+}
+.weathercard {
+    margin-left: 350px;
+    margin-top: -250px;
+}
